@@ -45,8 +45,8 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-              amet?
+              Finally we've come here so you can observe some examples of my
+              work.
             </p>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav
@@ -55,13 +55,13 @@ const Projects = () => {
                 variant="pills"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first">Page</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second">Page</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">Page</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

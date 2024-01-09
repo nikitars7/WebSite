@@ -35,8 +35,8 @@ const Skills = () => {
             <div className="skills-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quisquam quasi voluptas et quod debitis maxime.
+                Variety of technologies that I'm implementing at this time are
+                so tremendous.
               </p>
               <Carousel
                 responsive={responsive}
@@ -45,19 +45,39 @@ const Skills = () => {
               >
                 <article className="item">
                   <img src={meter1} alt="image" />
-                  <h3>Web development</h3>
+                  <h3>JavaScript</h3>
                 </article>
                 <article className="item">
                   <img src={meter2} alt="image" />
-                  <h3>Web development</h3>
+                  <h3>TypeScript</h3>
                 </article>
                 <article className="item">
                   <img src={meter3} alt="image" />
-                  <h3>Web development</h3>
+                  <h3>React</h3>
                 </article>
                 <article className="item">
                   <img src={meter1} alt="image" />
-                  <h3>Web development</h3>
+                  <h3>Redux</h3>
+                </article>
+                <article className="item">
+                  <img src={meter1} alt="image" />
+                  <h3>HTML5</h3>
+                </article>
+                <article className="item">
+                  <img src={meter1} alt="image" />
+                  <h3>CSS3</h3>
+                </article>
+                <article className="item">
+                  <img src={meter1} alt="image" />
+                  <h3>GIT</h3>
+                </article>
+                <article className="item">
+                  <img src={meter1} alt="image" />
+                  <h3>Gulp</h3>
+                </article>
+                <article className="item">
+                  <img src={meter1} alt="image" />
+                  <h3>Jest</h3>
                 </article>
               </Carousel>
             </div>

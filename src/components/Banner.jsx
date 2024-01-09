@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer1", "Web Developer2", "Web Developer3"];
+  const toRotate = ["Web Developer", "React Developer", "JS developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -56,10 +56,10 @@ const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsum illum eum sint deleniti quibusdam quas mollitia nihil,
-                    reiciendis eos voluptates tenetur iste, aut atque porro nam
-                    nemo autem ea. Natus.
+                    Do you need a website , probably online shop or a small
+                    single page layout? Here I'm to help you attain your goals
+                    in short period of time. Using the latest features of HTML5,
+                    CSS3, and JavaScript we will accomplish this together .
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let's connect <ArrowRightCircle size={25} />
